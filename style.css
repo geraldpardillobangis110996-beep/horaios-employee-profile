@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    padding: 20px;
+
+    background: #f1f1f1;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #111;
+
+}
+
+
+.profile-container {
+
+    width: 100%;
+
+    max-width: 520px;
+
+    margin: auto;
+
+}
+
+
+/* COMPANY HEADER */
+
+.company-header {
+
+    background: #ffffff;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    border-radius: 18px 18px 0 0;
+
+}
+
+
+.logo {
+
+    width: 90px;
+
+    height: 90px;
+
+    object-fit: contain;
+
+}
+
+
+.company-header h1 {
+
+    margin: 15px 0 8px;
+
+    font-size: 24px;
+
+    letter-spacing: 1px;
+
+}
+
+
+.company-header p {
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 14px;
+
+}
+
+
+
+/* EMPLOYEE CARD */
+
+.employee-card {
+
+    background: #ffffff;
+
+    padding: 30px 25px;
+
+}
+
+
+
+.employee-photo {
+
+    width: 150px;
+
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    display: block;
+
+    margin: auto;
+
+    border: 6px solid #eeeeee;
+
+}
+
+
+.employee-card h2 {
+
+    text-align: center;
+
+    margin: 20px 0 10px;
+
+    font-size: 22px;
+
+}
+
+
+
+/* STATUS */
+
+.status {
+
+    width: fit-content;
+
+    margin: auto;
+
+    padding: 8px 25px;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* DETAILS */
+
+.details {
+
+    margin-top: 30px;
+
+}
+
+
+.info-box {
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+
+.info-box:last-child {
+
+    border-bottom: none;
+
+}
+
+
+
+.info-box label {
+
+    display: block;
+
+    color: #777;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .5px;
+
+}
+
+
+.info-box p {
+
+    margin: 6px 0 0;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+
+    background: #ffffff;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 13px;
+
+    color: #555;
+
+    border-radius: 0 0 18px 18px;
+
+}
+
+
+
+/* MOBILE OPTIMIZATION */
+
+@media(max-width:480px){
+
+    body {
+
+        padding: 10px;
+
+    }
+
+
+    .company-header h1 {
+
+        font-size: 20px;
+
+    }
+
+
+    .employee-card {
+
+        padding: 25px 20px;
+
+    }
+
+}
