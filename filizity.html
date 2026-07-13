@@ -3,127 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Profile - Filizity Rei Asia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .card {
-            max-width: 700px;
-            margin: auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-            overflow: hidden;
-        }
-
-        .header {
-            background: #003366;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .profile-img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid white;
-            margin-top: -40px;
-            background: white;
-        }
-
-        .content {
-            padding: 25px;
-        }
-
-        .info {
-            margin-bottom: 12px;
-            font-size: 18px;
-        }
-
-        .label {
-            font-weight: bold;
-            color: #003366;
-        }
-
-        .status {
-            display: inline-block;
-            padding: 6px 12px;
-            background: #28a745;
-            color: white;
-            border-radius: 20px;
-            font-size: 14px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            color: #666;
-            font-size: 14px;
-        }
-    </style>
+    <title>Employee Profile | HORAIOS CORPORATION</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="card">
-    <div class="header">
-        <h1>HORAIOS CORP.</h1>
-        <p>Employee Profile Verification</p>
+<div class="profile-container">
+
+    <div class="company-header">
+        <img src="logo.png" alt="HORAIOS CORPORATION Logo" class="logo">
+
+        <h1>HORAIOS CORPORATION</h1>
+
+        <p>145 Mahabang Parang St., Bignay, Valenzuela City</p>
     </div>
 
-    <center>
-        <img src="Felizity.jpg" alt="Employee Photo" class="profile-img">
-    </center>
+    <div class="employee-card">
 
-    <div class="content">
+        <img src="Felizity.png"
+             alt="Filizity Rei Asia"
+             class="employee-photo">
 
-        <div class="info">
-            <span class="label">Full Name:</span>
-            Filizity Rei Asia
+        <h2>Filizity Rei Asia</h2>
+
+        <div id="status" class="status">
+            Checking Status...
         </div>
 
-        <div class="info">
-            <span class="label">Position:</span>
-            Live Seller
-        </div>
+        <div class="details">
 
-        <div class="info">
-            <span class="label">Employee ID:</span>
-            2606228891
-        </div>
+            <div class="info-box">
+                <label>Employee ID Number</label>
+                <p>2606228891</p>
+            </div>
 
-        <div class="info">
-            <span class="label">Department:</span>
-            Marketing
-        </div>
+            <div class="info-box">
+                <label>Position</label>
+                <p>Live Seller</p>
+            </div>
 
-        <div class="info">
-            <span class="label">Date Hired:</span>
-            July 22, 2026
-        </div>
+            <div class="info-box">
+                <label>Department</label>
+                <p>Marketing</p>
+            </div>
 
-        <div class="info">
-            <span class="label">Status:</span>
-            <span class="status">EMPLOYED</span>
-        </div>
+            <div class="info-box">
+                <label>Employment Status</label>
+                <p>EMPLOYED</p>
+            </div>
 
-        <div class="info">
-            <span class="label">Address:</span>
-            B9 L3 Northville 2, Bignay, Valenzuela City
+            <div class="info-box">
+                <label>Date Hired</label>
+                <p>July 22, 2026</p>
+            </div>
+
+            <div class="info-box">
+                <label>ID Expiry Date</label>
+                <p>December 30, 2026</p>
+            </div>
+
+            <div class="info-box">
+                <label>Company Email</label>
+                <p>hr.horaios@gmail.com</p>
+            </div>
+
+            <div class="info-box">
+                <label>Address</label>
+                <p>B9 L3 Northville 2, Bignay, Valenzuela City</p>
+            </div>
+
         </div>
 
     </div>
 
     <footer>
-        Verified Employee of HORAIOS CORP.
+        <strong>Verified Employee of HORAIOS CORPORATION</strong>
     </footer>
+
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
